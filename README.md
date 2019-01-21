@@ -8,14 +8,18 @@
  - github.com/codegangsta/negroni
  - github.com/jinzhu/gorm
   
+  
  
 2. Les tests necessitent les packages suivants:
  - github.com/stretchr/testify/assert
  - github.com/stretchr/testify/suite
   
   
+  
 3. Usage: 
 ```go run main.go```
+
+
 
 4. Routes:
  - ```POST``` /fizzbuzz/api/launch

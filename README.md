@@ -23,7 +23,7 @@
 
 4. Routes:
  - ```POST``` /fizzbuzz/api/launch
-   JSON:
+  - JSON:
    ```
    {
     "int1": 5,

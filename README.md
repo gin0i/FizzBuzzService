@@ -2,6 +2,7 @@
 # FizzBuzzService
 
 ## Le service necessite une base MySQL a indiquer via des variables d'environnement (voir .env.example)
+## Le service necessite un port sur lequel ecouter (voir .env.example)
 
 #### Le service necessite les packages suivant:
  - github.com/gorilla

@@ -14,5 +14,19 @@
  - github.com/stretchr/testify/suite
   
   
-3. usage: 
+3. Usage: 
 ```go run main.go```
+
+4. Routes:
+ - ```POST``` /fizzbuzz/api/launch
+   JSON:
+   ```
+   {
+    "int1": 5,
+    "int2": 3,
+    "limit": 401,
+    "str1": "Yvain",
+    "str2": "Gauvain"
+   }
+   ````
+ - ```GET``` /fizzbuzz/api/stat
